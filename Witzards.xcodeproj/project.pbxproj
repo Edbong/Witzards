@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63931DE11C0AF5CB0001D885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63931DE01C0AF5CB0001D885 /* AppDelegate.swift */; };
+		63931DE31C0AF5CB0001D885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63931DE21C0AF5CB0001D885 /* ViewController.swift */; };
+		63931DE61C0AF5CB0001D885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63931DE41C0AF5CB0001D885 /* Main.storyboard */; };
+		63931DE81C0AF5CB0001D885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63931DE71C0AF5CB0001D885 /* Assets.xcassets */; };
+		63931DEB1C0AF5CB0001D885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63931DE91C0AF5CB0001D885 /* LaunchScreen.storyboard */; };
+		63931DF61C0AF5CC0001D885 /* WitzardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63931DF51C0AF5CC0001D885 /* WitzardsTests.swift */; };
+		63931E011C0AF5CC0001D885 /* WitzardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63931E001C0AF5CC0001D885 /* WitzardsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63931DF21C0AF5CC0001D885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63931DD51C0AF5CB0001D885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63931DDC1C0AF5CB0001D885;
+			remoteInfo = Witzards;
+		};
+		63931DFD1C0AF5CC0001D885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63931DD51C0AF5CB0001D885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63931DDC1C0AF5CB0001D885;
+			remoteInfo = Witzards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63931DDD1C0AF5CB0001D885 /* Witzards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Witzards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63931DE01C0AF5CB0001D885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63931DE21C0AF5CB0001D885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63931DE51C0AF5CB0001D885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63931DE71C0AF5CB0001D885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63931DEA1C0AF5CB0001D885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63931DEC1C0AF5CB0001D885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63931DF11C0AF5CC0001D885 /* WitzardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WitzardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63931DF51C0AF5CC0001D885 /* WitzardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitzardsTests.swift; sourceTree = "<group>"; };
+		63931DF71C0AF5CC0001D885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63931DFC1C0AF5CC0001D885 /* WitzardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WitzardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63931E001C0AF5CC0001D885 /* WitzardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitzardsUITests.swift; sourceTree = "<group>"; };
+		63931E021C0AF5CC0001D885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63931DDA1C0AF5CB0001D885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63931DEE1C0AF5CC0001D885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63931DF91C0AF5CC0001D885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63931DD41C0AF5CB0001D885 = {
+			isa = PBXGroup;
+			children = (
+				63931DDF1C0AF5CB0001D885 /* Witzards */,
+				63931DF41C0AF5CC0001D885 /* WitzardsTests */,
+				63931DFF1C0AF5CC0001D885 /* WitzardsUITests */,
+				63931DDE1C0AF5CB0001D885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63931DDE1C0AF5CB0001D885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63931DDD1C0AF5CB0001D885 /* Witzards.app */,
+				63931DF11C0AF5CC0001D885 /* WitzardsTests.xctest */,
+				63931DFC1C0AF5CC0001D885 /* WitzardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63931DDF1C0AF5CB0001D885 /* Witzards */ = {
+			isa = PBXGroup;
+			children = (
+				63931DE01C0AF5CB0001D885 /* AppDelegate.swift */,
+				63931DE21C0AF5CB0001D885 /* ViewController.swift */,
+				63931DE41C0AF5CB0001D885 /* Main.storyboard */,
+				63931DE71C0AF5CB0001D885 /* Assets.xcassets */,
+				63931DE91C0AF5CB0001D885 /* LaunchScreen.storyboard */,
+				63931DEC1C0AF5CB0001D885 /* Info.plist */,
+			);
+			path = Witzards;
+			sourceTree = "<group>";
+		};
+		63931DF41C0AF5CC0001D885 /* WitzardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				63931DF51C0AF5CC0001D885 /* WitzardsTests.swift */,
+				63931DF71C0AF5CC0001D885 /* Info.plist */,
+			);
+			path = WitzardsTests;
+			sourceTree = "<group>";
+		};
+		63931DFF1C0AF5CC0001D885 /* WitzardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63931E001C0AF5CC0001D885 /* WitzardsUITests.swift */,
+				63931E021C0AF5CC0001D885 /* Info.plist */,
+			);
+			path = WitzardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63931DDC1C0AF5CB0001D885 /* Witzards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63931E051C0AF5CC0001D885 /* Build configuration list for PBXNativeTarget "Witzards" */;
+			buildPhases = (
+				63931DD91C0AF5CB0001D885 /* Sources */,
+				63931DDA1C0AF5CB0001D885 /* Frameworks */,
+				63931DDB1C0AF5CB0001D885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Witzards;
+			productName = Witzards;
+			productReference = 63931DDD1C0AF5CB0001D885 /* Witzards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63931DF01C0AF5CC0001D885 /* WitzardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63931E081C0AF5CC0001D885 /* Build configuration list for PBXNativeTarget "WitzardsTests" */;
+			buildPhases = (
+				63931DED1C0AF5CC0001D885 /* Sources */,
+				63931DEE1C0AF5CC0001D885 /* Frameworks */,
+				63931DEF1C0AF5CC0001D885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63931DF31C0AF5CC0001D885 /* PBXTargetDependency */,
+			);
+			name = WitzardsTests;
+			productName = WitzardsTests;
+			productReference = 63931DF11C0AF5CC0001D885 /* WitzardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63931DFB1C0AF5CC0001D885 /* WitzardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63931E0B1C0AF5CC0001D885 /* Build configuration list for PBXNativeTarget "WitzardsUITests" */;
+			buildPhases = (
+				63931DF81C0AF5CC0001D885 /* Sources */,
+				63931DF91C0AF5CC0001D885 /* Frameworks */,
+				63931DFA1C0AF5CC0001D885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63931DFE1C0AF5CC0001D885 /* PBXTargetDependency */,
+			);
+			name = WitzardsUITests;
+			productName = WitzardsUITests;
+			productReference = 63931DFC1C0AF5CC0001D885 /* WitzardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63931DD51C0AF5CB0001D885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Edward Chiang";
+				TargetAttributes = {
+					63931DDC1C0AF5CB0001D885 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					63931DF01C0AF5CC0001D885 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 63931DDC1C0AF5CB0001D885;
+					};
+					63931DFB1C0AF5CC0001D885 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 63931DDC1C0AF5CB0001D885;
+					};
+				};
+			};
+			buildConfigurationList = 63931DD81C0AF5CB0001D885 /* Build configuration list for PBXProject "Witzards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63931DD41C0AF5CB0001D885;
+			productRefGroup = 63931DDE1C0AF5CB0001D885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63931DDC1C0AF5CB0001D885 /* Witzards */,
+				63931DF01C0AF5CC0001D885 /* WitzardsTests */,
+				63931DFB1C0AF5CC0001D885 /* WitzardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63931DDB1C0AF5CB0001D885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63931DEB1C0AF5CB0001D885 /* LaunchScreen.storyboard in Resources */,
+				63931DE81C0AF5CB0001D885 /* Assets.xcassets in Resources */,
+				63931DE61C0AF5CB0001D885 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63931DEF1C0AF5CC0001D885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63931DFA1C0AF5CC0001D885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63931DD91C0AF5CB0001D885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63931DE31C0AF5CB0001D885 /* ViewController.swift in Sources */,
+				63931DE11C0AF5CB0001D885 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63931DED1C0AF5CC0001D885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63931DF61C0AF5CC0001D885 /* WitzardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63931DF81C0AF5CC0001D885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63931E011C0AF5CC0001D885 /* WitzardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63931DF31C0AF5CC0001D885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63931DDC1C0AF5CB0001D885 /* Witzards */;
+			targetProxy = 63931DF21C0AF5CC0001D885 /* PBXContainerItemProxy */;
+		};
+		63931DFE1C0AF5CC0001D885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63931DDC1C0AF5CB0001D885 /* Witzards */;
+			targetProxy = 63931DFD1C0AF5CC0001D885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63931DE41C0AF5CB0001D885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63931DE51C0AF5CB0001D885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63931DE91C0AF5CB0001D885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63931DEA1C0AF5CB0001D885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63931E031C0AF5CC0001D885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63931E041C0AF5CC0001D885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63931E061C0AF5CC0001D885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Witzards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ooooong.Witzards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63931E071C0AF5CC0001D885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Witzards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ooooong.Witzards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63931E091C0AF5CC0001D885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WitzardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ooooong.WitzardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Witzards.app/Witzards";
+			};
+			name = Debug;
+		};
+		63931E0A1C0AF5CC0001D885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WitzardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ooooong.WitzardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Witzards.app/Witzards";
+			};
+			name = Release;
+		};
+		63931E0C1C0AF5CC0001D885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WitzardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ooooong.WitzardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Witzards;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63931E0D1C0AF5CC0001D885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WitzardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ooooong.WitzardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Witzards;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63931DD81C0AF5CB0001D885 /* Build configuration list for PBXProject "Witzards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63931E031C0AF5CC0001D885 /* Debug */,
+				63931E041C0AF5CC0001D885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63931E051C0AF5CC0001D885 /* Build configuration list for PBXNativeTarget "Witzards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63931E061C0AF5CC0001D885 /* Debug */,
+				63931E071C0AF5CC0001D885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63931E081C0AF5CC0001D885 /* Build configuration list for PBXNativeTarget "WitzardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63931E091C0AF5CC0001D885 /* Debug */,
+				63931E0A1C0AF5CC0001D885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63931E0B1C0AF5CC0001D885 /* Build configuration list for PBXNativeTarget "WitzardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63931E0C1C0AF5CC0001D885 /* Debug */,
+				63931E0D1C0AF5CC0001D885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63931DD51C0AF5CB0001D885 /* Project object */;
+}
